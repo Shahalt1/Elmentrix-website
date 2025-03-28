@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Why Choose Elementrix?"
+    description="Discover our comprehensive approach to robotics and AI education that combines hands-on learning with cutting-edge technology."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Hands-on Robotics Learning"
+      description="Build and program real robots through our interactive courses. Get practical experience with industry-standard hardware and software tools while learning fundamental robotics concepts."
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="Robotics learning feature"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="AI & Machine Learning"
+      description="Master the fundamentals of artificial intelligence and machine learning through practical projects. Learn to develop smart applications and understand the technology shaping our future."
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="AI learning feature"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Expert-Led Community"
+      description="Join a vibrant community of learners and industry experts. Participate in workshops, competitions, and collaborative projects to enhance your skills and build your portfolio."
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="Community feature"
     />
   </Section>
 );

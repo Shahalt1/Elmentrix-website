@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  site_name: 'Elementrix',
+  title: 'Elementrix - Robotics & AI Education Platform',
+  description:
+    'Empowering the next generation through innovative Robotics and AI education',
   locale: 'en',
 };
