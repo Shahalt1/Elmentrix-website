@@ -12,7 +12,9 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/courses">Courses</Link>
+          <Link href="/courses#courses" scroll={false}>
+            Courses
+          </Link>
         </li>
         <li>
           <Link href="/signin">Sign in</Link>
