@@ -1,3 +1,4 @@
+import { StudentShowcase } from '../components/StudentShowcase'; // Added import
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
@@ -10,6 +11,7 @@ const Base = () => (
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Hero />
     <VerticalFeatures />
+    <StudentShowcase /> {/* Added StudentShowcase component */}
     <Banner />
     <Footer />
   </div>
